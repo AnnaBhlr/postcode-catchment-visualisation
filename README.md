@@ -3,11 +3,13 @@
 A Jupyter notebook that demonstrates a few ways to visualise **counts per Australian postcode** (e.g., study participants per postcode):
 
 - **Option A (centroids):** point markers and proportional circles on a Folium (Leaflet) map
-![Option A preview](assets/option-a-centroids_1.png)
-![Option A preview](assets/option-a-centroids_2.png)
+<p float="left">
+  <img src="assets/option-a-centroids_1.png" width="360" alt="Option A1 preview">
+  <img src="assets/option-a-centroids_2.png" width="360" alt="Option A2 preview">
+</p>
 
 - **Option B (polygons):** choropleth using ABS Postal Areas (POA 2021) boundaries (GeoPandas + Matplotlib, and an interactive Folium version)
-![Option B preview](assets/option-b-polygons.png)
+<img src="assets/option-b-polygons.png" width="360" alt="Option B preview">
 
 The notebook is written so you can swap the public example counts for your own cohort’s participant counts.
 
